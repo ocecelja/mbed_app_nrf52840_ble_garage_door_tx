@@ -1,0 +1,12 @@
+{
+    "m306a_nrf52840": {
+        "target_name": "M306A_NRF52840",
+        "target_dir": "TARGET_M306A_NRF52840",
+        "mbed_dir": "TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF52/TARGET_MCU_NRF52840/",
+        "device": "DEV",
+        "hardware": "m306",
+        "group_prefix": "fw_dev_nrf52840_",
+        "hardware_type": "m306a",
+        "repository": ""
+    }
+}

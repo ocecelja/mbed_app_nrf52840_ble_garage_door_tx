@@ -1,0 +1,20 @@
+{
+  "target_overrides": {
+    "*": {
+      "events.use-lowpower-timer-ticker": 1,
+      "platform.default-serial-baud-rate": 115200,
+
+      "target.printf_lib": "std",
+      "platform.stdio-baud-rate": 115200,
+      "platform.stdio-convert-newlines": true,
+      "platform.stdio-buffered-serial": true,
+      "drivers.uart-serial-rxbuf-size": 64,
+      "drivers.uart-serial-txbuf-size": 1024,
+
+      "target.console-uart": true,
+      "platform.stdio-flush-at-exit": true,
+
+      "rtos.idle-thread-stack-size": 1024
+    }
+  }
+}

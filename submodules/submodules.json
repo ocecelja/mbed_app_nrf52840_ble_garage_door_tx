@@ -1,0 +1,8 @@
+/* TODO
+make python sricpt for fetching submodules based on data provided in this json
+data:
+  1) repository name
+  2) branch name
+  3) enabled/disabled option
+  4) commit number: specific commit on branch or empty filed retrives latest commit
+*/

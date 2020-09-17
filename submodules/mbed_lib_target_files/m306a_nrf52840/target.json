@@ -1,0 +1,14 @@
+{
+    "device_name": "nRF52840_xxAA",
+    "inherits": ["MCU_NRF52840"],
+    "macros_add": ["CONFIG_GPIO_AS_PINRESET"],
+    "target_overrides": {
+        "*": {
+            "target.lf_clock_src": "NRF_LF_SRC_RC",
+            "target.lf_clock_rc_calib_timer_interval": 16,
+            "lf_clock_rc_calib_mode_config": 2,
+            "target.lf_clock_xtal_accuracy": "NRF_CLOCK_LF_XTAL_ACCURACY_250_PPM"
+        }
+    },
+    "release_versions": ["5"]
+}

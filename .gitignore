@@ -1,0 +1,6 @@
+*.py*
+mbed-os
+cmake-build-debug
+.idea
+GettingStarted.html
+CMakeLists.txt
